@@ -18,7 +18,7 @@ def upload_file():
 def hello():
     return render_template('hello.html',name=filename)#,text=f)
 
-@app.route('/des/')
+@app.route('/des')
 
 def des():
     f = file.open()
